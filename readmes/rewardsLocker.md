@@ -1,0 +1,7 @@
+# Rewards Locker
+
+Users accumulate KAP rewards during staking. At any time, a user can claim their pending rewards. The claimed rewards are made available to the user for withdrawal 52 weeks after the claim transaction, in the form of a lock agreement in the rewards locker contract.
+
+The rewards are pre-loaded into the rewards locker contract, and as such only the staking pool has access to create these lock agreements. At the time of deployment, the rewards locker contract will not be a valid source of voting weight for governance proposals. However, the governance can decide to add it later. If added, the contract reports the KAP voting weight of an address as the total sum of all uncollected KAP associated with that address. In particular, the KAP contained in lock agreements which will unlock in the future is counted towards current voting weight.
+
+As a security mechanism, we give the governance contract and the core team multisig the ability to transfer KAP out of the rewards locker contract. This security mechanism will only be used if it is determined that users can withdraw more than their fair share of KAP rewards. The team multisig has this ability to save the KAP rewards (rather than only the governance) because, in the event of an emergency, the governance process may take too long. However, this team multisig ability can be renounced as the core team begins to step down and turn the DAO fully over to the community.
