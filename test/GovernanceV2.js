@@ -96,7 +96,6 @@ describe("Contract: GovernanceV2 (Mainnet fork required)", () => {
     await _governanceV2
       .connect(_foundationMultiSig)
       .confirmChanged(governanceRegistry.address);
-    console.log("Deployed?");
     // Verify upgrade
     expect(await governanceRegistry.governance()).to.equal(
       _governanceV2.address
