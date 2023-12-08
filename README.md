@@ -1,8 +1,10 @@
-# Kapital DAO
+# KAP Games
 
-The Kapital DAO builds SaaS tools used by the world's largest guilds and games to onboard players and improve asset management, all powered by the KAP token.
+KAP Games is a web3 gaming distributor, publisher & studio, specializing in browser and mobile-native experiences.
 
-[Official docs](https://docs.kapital.gg/)
+Utilizing emerging technologies to unlock the next generation of gaming, KAP curates ecosystems where diverse games, innovative projects, and vibrant communities collide.
+
+[Official docs](https://docs.kap.gg/)
 
 ## Tests
 
