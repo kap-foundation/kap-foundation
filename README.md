@@ -1,10 +1,8 @@
 # KAP Games
 
-KAP Games is a web3 gaming distributor, publisher & studio, specializing in browser and mobile-native experiences.
+The KAP Foundation powers $KAP, an ERC-20 utility token empowering modern crypto games in partnership with KAP Games.
 
-Utilizing emerging technologies to unlock the next generation of gaming, KAP curates ecosystems where diverse games, innovative projects, and vibrant communities collide.
-
-[Official docs](https://docs.kap.gg/)
+[Official site](https://kap.foundation/)
 
 ## Tests
 
